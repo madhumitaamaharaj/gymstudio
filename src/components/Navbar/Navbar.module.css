@@ -1,0 +1,39 @@
+.parentDiv{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: fixed;
+    top: 1%;
+    width: 100%;
+    background-color: rgb(69, 30, 82);
+    z-index: 10;
+}
+
+.section{
+    display: flex;
+    color: white;
+    gap: 20%;
+    position: sticky;
+
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.image{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    cursor: pointer;
+}
+
+.btn{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
